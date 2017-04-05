@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quinta clase | Diseño y Nuevos Medios</title>
+    <!-- Search Engine -->
+    <meta name="description" content="Primer ejercicio con Bootstrap 3">
+    <!-- Schema.org for Google -->
+    <meta itemprop="name" content="Quinta clase |  Diseño y Nuevos Medios">
+    <meta itemprop="description" content="Primer ejercicio con Bootstrap 3">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Quinta clase |  Diseño y Nuevos Medios">
+    <meta name="twitter:description" content="Primer ejercicio con Bootstrap 3">
+    <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+    <meta name="og:title" content="Quinta clase |  Diseño y Nuevos Medios">
+    <meta name="og:description" content="segundo ejercicio con Bootstrap 3">
+    <meta name="og:site_name" content="quinta clase">
+    <meta name="og:locale" content="es_CL">
+    <meta name="og:type" content="website">
+    <!-- Los estilos, el bootstrap.min.css está dentro de una carpeta, estilo.css no. -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700,700i" rel="stylesheet" rel="stylesheet" rel="stylesheet">
+    <link href="estilo.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Project name</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+              <li><a href="#primero" class="page-scroll">Japonesa</a></li>
+              <li><a href="#segundo" class="page-scroll">Copta</a></li>
+              <li><a href="#tercero" class="page-scroll">Belga</a></li>
+              <li><a href="https://github.com/manederosasc"target="_blank" rel="me">Mi cuenta de GitHub</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <header>
+            <h1>El arte de la encuarnación</h1>
+            <h2>Tres formas de encuadernar</h2>
+          </header>
+        </div><!--/col-sm-12 que contiene al header-->
+        <div class="col-sm-8">
+          <section>
+          <!--acá abro el artículo-->
+          <article class="row" id="primero">
+            <div class="col-sm-12">
+              <h3>Japonesa</h3>
+              <h5><a href="archivos.html" class="archivos">Archivos</a> Miércoles 5 de abril, 2017</h5>
+              <figure><img src="images/japonesa.jpg"></figure>
+              <p>Se trata de una encuadernación en la que destaca la ausencia de lomo. Las hojas y las tapas se cosen entre sí, pudiendo unir hojas sueltas.</p>
+              <p>La mayoría de los cosidos japoneses son de cuatro o cinco agujeros, cuatro si siguen la costura china que tiene especial predilección por lo números pares, y cinco si siguen la encuadernación coreana que les gusta más los números impares.</p>
+              <p>Aunque parece una encuadernación sencilla, permite jugar con múltiples variantes. Por ejemplo: la tapa puede ser de papel, cartón o tela, pede ser de tapa dura o tapa blanda,etc.</p>
+
+              <p><a data-toggle="modal" data-target="#miPrimerModal">Consejo</a></p>
+          </article>
+          <!--acá cierro el artículo-->
+          <!--acá abro el artículo-->
+          <article class="row" id="segundo">
+            <div class="col-sm-12">
+              <h3>Copta</h3>
+              <h5><a href="archivos.html" class="archivos">Archivos</a> Miércoles 5 de abril, 2017</h5>
+              <figure><img src="images/copta.jpg"></figure>
+              <p>La encuadernación Copta fue de las primeras formas de preservar cuadernillos escritos con unas tapas de madera, y todo el conjunto, cuadernillo  y tapas, unidos mediante un cosido, normalmente con nudo cadeneta.</p>
+              <p>El término copto hace referencia a los egipcios y etíopes que profesan algún tipo de fe cristiana, ya sea en la Iglesia Copta, en la Iglesia Ortodoxa Copta, en la Iglesia Católica Copta o en la Iglesia Evangélica copta.</p>
+              <p>Este sistema precisa pocas herramientas para llevarlo a cabo, entre esos esta la cierra para hacerle los hoyos y una ajuga curva</p>
+
+              <p><a data-toggle="modal" data-target="#miSegundoModal">Consejo</a></p>
+          </article>
+          <!--acá cierro el artículo-->
+          <!--acá abro el artículo-->
+          <article class="row" id="tercero">
+            <div class="col-sm-12">
+              <h3>Belga</h3>
+              <h5><a href="archivos.html" class="archivos">Archivos</a> Miércoles 5 de abril, 2017</h5>
+              <figure><img src="images/belga.jpg"></figure>
+              <p>En la década de 1980 Anne Goy desarrolló este sistema de encuadernación, para los hispanos se llama encuadernación belga y para el resto “secret belgian binding” con la idea de que el libro se abriera completamente partiendo  del aspecto de la encuadernación japonesa. Su idea la mostró a pocas personas pero las suficientes para que esta encuadernación se fuera popularizando,  Hedi Kyle y Emily Martin fueron grandes impulsores de este método.
+              <p>Esta encuadernación de fácil ejecución se construye partiendo de unos cuadernillos  sobre los que se tomas medidas, y con ellas se confeccionan  las tapas y el lomo; las tapas y lomo se cosen entre sí de modo que nos sirva el conjunto (tapas y lomo) como soporte para el cosido posterior de los cuadernillos.</p>
+              <p><a data-toggle="modal" data-target="#miTercerModal">Consejo</a></p>
+          </article>
+          <!--acá cierro el artículo-->
+        </section>
+      </div><!--/col-sm-8 que contiene al section-->
+        <div class="col-sm-4">
+          <aside>
+            <h3>Vínculos</h3>
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingOne">
+                  <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Que lindo eso
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                  <div class="panel-body">
+                    Muy lindo...
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Apreta aquí
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                  <div class="panel-body">
+                    Bien!!
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    jejejejeje
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">
+                  jojojojojo
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+        </aside>
+      </div><!--/col-sm-4 que contiene al aside-->
+
+        <div class="col-sm-12">
+          <footer>
+          <p><a href="mailto:msderosas@uc.cl">Magdalena Derosas</a>. Sigo avanzando en Bootstrap.</p>
+        </footer>
+      </div><!--/col-sm-12 que contiene al footer-->
+      </div><!--/row-->
+    </div><!--/container-->
+
+<!--por acá voy a poner miPrimerModal-->
+<div class="modal fade" id="miPrimerModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Consejo</h4>
+      </div>
+      <div class="modal-body">
+        <p>Ten paciencia, la encuadernación requiere más tiempo del que se cree</p>
+      </div><!--/modal-body-->
+    </div><!--/modal-content-->
+  </div><!--/modal-dialog-->
+</div><!--/modal-->
+
+<!--por acá voy a poner miSegundoModal-->
+<div class="modal fade" id="miSegundoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Consejo</h4>
+      </div>
+      <div class="modal-body">
+    <p>Practica mucho</p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!--por acá voy a poner miTercerModal-->
+<div class="modal fade" id="miTercerModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Consejo</h4>
+      </div>
+      <div class="modal-body">
+            <p>Se creaivo e innova</p>
+
+    </div>
+  </div>
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scroll.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+
+  </body>
+</html>
